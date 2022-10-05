@@ -1,2 +1,24 @@
-#introduction for c#
-# reference -- https://www.tutorialspoint.com/csharp/csharp_tutorial.pdf
+//introduction for c# //
+//reference -- https://www.tutorialspoint.com/csharp/csharp_tutorial.pdf //
+
+//nak buat triangle and print line dkt console//
+
+
+using System;
+
+namespace Triangle
+{
+  class Program
+    { 
+      static void Main (string[] args)
+        {
+          Console.WriteLine("HelloWorld");
+          Console.WriteLine("This is Triangle");
+          Console.WriteLine("   /|");
+          Console.WriteLine("  / |");
+          Console.WriteLine(" /  |");
+          Console.WriteLine("/___|");
+          Console.ReadLine();
+        }
+    }
+}
