@@ -1,0 +1,27 @@
+using System;
+
+namespace Triangle
+{
+  class Program
+    { 
+      static void Main (string[] args)
+        {
+          Console.WriteLine("HelloWorld");
+          Console.WriteLine("I am use variable in my story");
+          
+          string characterName = "ABU";
+          int characterAge;
+          characterAge = 35 ;
+          
+          Console.WriteLine("Dekat kampung ada " + characterName);
+          Console.WriteLine("Umur dia" + characterAge + "tpi dia rasa muda");
+          Console.WriteLine( characterName + "ada rumah");
+          Console.WriteLine("Abu suka umur dia yg "+ characterAge);
+          
+          Console.ReadLine();
+          
+        } 
+          
+          
+    }
+}
