@@ -1,0 +1,26 @@
+using System;
+
+namespace Triangle
+{
+  class Program
+    { 
+      static void Main (string[] args)
+        {
+        
+          string characterName = "ABU";
+          int characterAge;
+          characterAge = 35 ;
+          char grade = 'A';
+          double GPA = 3.0;
+          int boom = 33;
+          bool isMale = false;
+          
+;
+          Console.WriteLine(isMale + " dadasdasda");
+          
+          
+        } 
+          
+          
+    }
+}
