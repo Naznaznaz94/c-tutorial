@@ -1,0 +1,42 @@
+using System;
+
+namespace Triangle
+{
+  class Program
+    { 
+      static void Main (string[] args)
+        {
+            string phrase = "Naz Academy" + " the best";
+            Console.WriteLine(phrase);
+            
+            //nak tahu pasal length//
+            Console.WriteLine(phrase.Length);
+            
+            //jenis2 contoh method utk ubah string variables yg dah define//
+            //nak bgi semua huruf besar//
+            Console.WriteLine(phrase.ToUpper() );
+            
+            //nak bagi huruf kecik semua
+            Console.WriteLine(phrase.ToLower() );
+            
+            //nak check somthing dalam tempat kena assign variable string tu//
+            Console.WriteLine(phrase.Contains("Naz"));
+            Console.WriteLine(phrase.Contains("Rul"));
+            
+            //nak tahu specific character dekat variable string kita tu//
+            Console.WriteLine(phrase[4]);
+            
+            //nak tahu variable string kita tu dekat index mana//
+            Console.WriteLine(phrase.IndexOf("az"));
+            Console.WriteLine(phrase.IndexOf('a'));
+            
+            //klau kita nak grab specific word dlm variable strings kita//
+            Console.WriteLine(phrase.Substring(4,7));
+            Console.WriteLine(phrase.Substring(4,3));
+            Console.ReadLine();
+            
+        } 
+          
+          
+    }
+}
