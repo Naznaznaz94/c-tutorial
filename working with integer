@@ -1,0 +1,47 @@
+using System;
+
+namespace Triangle
+{
+  class Program
+    { 
+      static void Main (string[] args)
+        {
+            //kalau interger takperlu nak "5+6" terus tulis 5+6//
+            Console.WriteLine(5+6);
+            Console.WriteLine(6-5);
+            Console.WriteLine(6*5);
+            Console.WriteLine(6/3);
+            
+            //Kalau nak carik baki dari bahagi,useful utk carik mcm odd and even//
+            Console.WriteLine(7%5);
+            
+            //kalau kita guna whole number , kita akan dapat whole number//
+            //kalau guna decimal, dapat decimal//
+            Console.WriteLine(6/4);
+            Console.WriteLine(6.0/4.0);
+            
+            //nak increment satu per satu
+            int num1 = 6;
+            num1++;
+            Console.WriteLine(num1);
+            
+            int num2 = 9;
+            num2--;
+            Console.WriteLine(num2);
+            
+            //contoh kegunaan math method utk int//
+            //utk carik absolute value//
+            Console.WriteLine(Math.Abs(-40));
+            //utk carik power , mcm squared//
+            Console.WriteLine(Math.Pow(3,3));
+            //squared root
+            Console.WriteLine(Math.Sqrt(36));
+            //carik max and min utk dua number
+            Console.WriteLine(Math.Max(3,40));
+            Console.WriteLine(Math.Max(40,50));
+            
+            
+
+        }
+    }
+}
