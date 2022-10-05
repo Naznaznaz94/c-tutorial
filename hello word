@@ -14,10 +14,10 @@ namespace Triangle
         {
           Console.WriteLine("HelloWorld");
           Console.WriteLine("This is Triangle");
-          Console.WriteLine("   /|");
-          Console.WriteLine("  / |");
-          Console.WriteLine(" /  |");
-          Console.WriteLine("/___|");
+          Console.WriteLine("   /|\\");
+          Console.WriteLine("  / | \\");
+          Console.WriteLine(" /  |  \\");
+          Console.WriteLine("/___|___\\");
           Console.ReadLine();
         }
     }
