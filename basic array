@@ -1,0 +1,35 @@
+using System;
+
+namespace array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //variable boleh control 1 sahaja value//
+            //array boleh hold banyak2 value//
+
+            int[] luckyNumbers =   {1,5, 12 ,56 ,667 ,864 };
+            string[] friends = { "ali", "abu", "azizi", "izzul" };
+
+            //kita jugak boleh assign arry kosong
+            string[] musuh = new string[5];
+            musuh[0] = "alamak";
+
+            Console.WriteLine(musuh[0]);
+
+            // cara nak ubah dalam array
+            Console.Write("Cara nak ubah array dalam csharp: ");
+            luckyNumbers[1] = Convert.ToInt32(Console.ReadLine());
+
+            //Cara biasa nak ubah
+            // luckyNumber[1] = 4;
+
+            Console.WriteLine(luckyNumbers[1]);    
+
+
+
+
+        }
+    }
+}
