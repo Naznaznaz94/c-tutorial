@@ -15,6 +15,7 @@ namespace array
             CallMyName("Abu");
             TambahTambah(8, 9);
             Campur("abu", 17);
+            Console.WriteLine(Cube(8));
 
         }
 
@@ -38,6 +39,14 @@ namespace array
         static void Campur(string c, int d)
         {
             Console.WriteLine("Hello, my name is " + c + " my age is " + d);
+        }
+
+        //skrg masuk bab return pulak
+
+        static int Cube(int num)
+        {
+            int result = num * num * num;
+            return result;
         }
 
 
