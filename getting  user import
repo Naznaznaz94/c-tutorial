@@ -1,0 +1,17 @@
+using System;
+
+namespace Tuserinput
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //kita nak client tulis input sama line dgn ayat kita, guna write instead of write.line//
+            Console.Write("Please enter your name : ");
+            string NAMA = Console.ReadLine();
+
+            Console.WriteLine("Hello, nama anda " + NAMA);  
+
+        }
+    }
+}
