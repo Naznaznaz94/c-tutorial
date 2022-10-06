@@ -1,0 +1,34 @@
+using System;
+
+namespace simplecalclator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //kalau nak convert number yg dah dalam string ke int
+            int numbo = Convert.ToInt32("45");
+
+            //Nak start buat calculator//
+            Console.Write("Please enter a number : ");
+            //sebab apa kita tak guna int num1, sebab readline akan amik user input as string//
+            //kalau user letak number yg ada perpuluhan. guna double //
+            //better guna double kalau buat math operation utk selamat //
+            double numbo1 = Convert.ToDouble(Console.ReadLine());
+            //int numbo1 = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.Write("Please enter a number : ");
+            //int numbo2 = Convert.ToInt32(Console.ReadLine());
+            double numbo2 = Convert.ToDouble(Console.ReadLine());
+
+            //kalau user letak number yg ada perpuluhan. guna double //
+
+            Console.WriteLine(numbo1 + numbo2);
+
+
+
+
+        }
+    }
+}
