@@ -9,8 +9,10 @@ namespace Tuserinput
             //kita nak client tulis input sama line dgn ayat kita, guna write instead of write.line//
             Console.Write("Please enter your name : ");
             string NAMA = Console.ReadLine();
+            Console.Write("Please enter your age : ");
+            String age = Console.ReadLine();
 
-            Console.WriteLine("Hello, nama anda " + NAMA);  
+            Console.WriteLine("Hello, nama anda " + NAMA + " umur anda ialah " + age);
 
         }
     }
