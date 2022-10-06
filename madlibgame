@@ -1,0 +1,32 @@
+using System;
+
+namespace madlibgame
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //declare banyak2 string
+            string color, pluralNoun, celebrity;
+
+            Console.Write("Please enter a color: ");
+            color = Console.ReadLine();
+
+            Console.Write("Please enter pluraunoun : ");
+            pluralNoun = Console.ReadLine();
+
+            Console.Write("Please enter a celebrity name: ");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine("roti itu kaler " + color);
+            Console.WriteLine("roti itu ada " + pluralNoun);
+            Console.WriteLine("roti itu suka dimakan oleh " + celebrity);
+
+
+
+
+
+
+        }
+    }
+}
