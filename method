@@ -1,0 +1,45 @@
+using System;
+using System.Text.RegularExpressions;
+
+
+//method ni kira function dlam c sharp
+
+namespace array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            SayHi();
+            CallMyName("Abu");
+            TambahTambah(8, 9);
+            Campur("abu", 17);
+
+        }
+
+        static void SayHi() 
+        {
+            Console.WriteLine("Hi");
+       
+        }
+
+        static void CallMyName(string name)
+        {
+            Console.WriteLine("Hello " + name);
+
+        }
+
+        static void TambahTambah(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+
+        static void Campur(string c, int d)
+        {
+            Console.WriteLine("Hello, my name is " + c + " my age is " + d);
+        }
+
+
+    }
+}
