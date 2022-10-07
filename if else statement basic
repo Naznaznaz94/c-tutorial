@@ -1,0 +1,51 @@
+using System;
+using System.Text.RegularExpressions;
+
+
+//method ni kira function dlam c sharp
+
+namespace yifelse
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool isMale = false;
+            bool isTall = true;
+
+            // hafal cara tulis if () {}
+            // && = and , || = or
+
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are male and tall");
+            } else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are male and not tall");
+            } else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are not mall but tall");
+            } else
+            {
+                Console.WriteLine("You are not male and not tall");
+            }
+
+
+
+
+
+            if (isMale || isTall)
+            {
+                Console.WriteLine("You are male and tall");
+            }
+            else
+            {
+                Console.WriteLine("You are not male , or not tall, or both");
+            }
+
+        }
+
+
+
+    }
+}
